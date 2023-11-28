@@ -1,0 +1,66 @@
+App {
+    margin-top: 30px;
+    
+}
+.block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #B5DC36;
+    transition: all 1ms ease-in-out;
+  }
+
+.box {
+    margin: auto;
+    height: 617px;
+    width: 617px;
+    /* background-color: blue; */
+
+}
+.container {
+    margin-top:60px;
+    margin-left: 510px;
+    position: absolute;
+    width: 499px;
+    height: 499px;
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+  }
+
+.Top {
+    width: 499px;
+    height: 59px;
+    display: block;
+    top: 0px;
+    border: none;
+    background-color:#B8EDED;
+}
+
+.Left {
+    margin-top: 60px;
+    float: left;
+    width: 59px;
+    height: 499px;
+    border: none;
+    background-color:#B8EDED;
+}
+
+.Right {
+    margin-top: 0px;
+    float: right;
+    width: 59px;
+    height: 499px;
+    border: none;
+    background-color:#B8EDED;
+}
+
+.Bottom {
+    margin-left: 59px;
+    margin-top:500px;
+    width: 499px;
+    height: 59px;
+    display: block;
+    bottom: 0px;
+    border: none;
+    background-color:#B8EDED;
+}
